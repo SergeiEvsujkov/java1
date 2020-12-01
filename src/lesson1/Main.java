@@ -48,7 +48,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите переменную x1 :");
         float x1;
-        // проверяем условие целочисленности х1
+        // проверяем условие целочисленности для х1
         do {
             x1 = in.nextFloat();
             float x1Test = x1 % 1;
@@ -59,7 +59,7 @@ public class Main {
 
         System.out.println("Введите переменную x2 :");
         float x2;
-        // проверяем условие целочисленности х2
+        // проверяем условие целочисленности для х2
         do {
             x2 = in.nextFloat();
             float x2Test = x2 % 1;
