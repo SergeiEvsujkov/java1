@@ -17,7 +17,7 @@ public class Main {
         int[] array = {2, 2, 2, 1, 2, 2, 10, 1}; //массив для задачи 6
         System.out.println(checkBalance(array));
         System.out.printf("%nЗадача 7:%n");
-        shiftArray(1);
+        shiftArray(-1);
     }
 
     public static void invertArray() {
@@ -70,7 +70,7 @@ public class Main {
             }
 
         for (int i = 0, j = longArr - 1; i < longArr; i++, j--){
-            arr[i][j] = 1; // заполняем превую диагональ 2
+            arr[i][j] = 1; // заполняем превую диагональ 1
         }
 
         for (int i = 0; i < longArr; i++) {
