@@ -334,7 +334,7 @@ public class Main {
                         testColumn = j;
                         MAP[i][j] = DOT_EMPTY;
                         return true;
-                    };
+                    }
                     MAP[i][j] = DOT_EMPTY;
 
                 }
