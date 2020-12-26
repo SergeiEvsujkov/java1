@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    static final int SIZE = 5;
+    static final int SIZE = 3;
     static final int SIZEFORWIN = 3;
 
     static final char DOT_EMPTY = '•';
@@ -172,6 +172,7 @@ public class Main {
 
         if (!isEnd && isMapFullByTurnsCount()) {
             System.out.println("Ничья!");
+            isEnd = true;
         }
         if (isEnd) {
            System.exit(0);
@@ -333,7 +334,7 @@ public class Main {
                         testColumn = j;
                         MAP[i][j] = DOT_EMPTY;
                         return true;
-                    };
+                    }
                     MAP[i][j] = DOT_EMPTY;
 
                 }
